@@ -1,0 +1,25 @@
+{{ define "head-title" }}
+    <title>NASA World Wind - {{ .Params.Title }} - Tutorials</title>
+{{ end }}
+{{ define "main-block" }}
+    {{ partial "project-navbar.html" . }}
+    
+    <div class="container">
+    {{ if eq .Params.displayassingle true }}
+        {{ .Content }}
+    {{ else }} 
+        <h3>Tutorials</h3>
+        {{ .Content }}
+        {{ range .Data.Pages.ByTitle.Reverse }}
+            <div class="panel panel-primary">
+                <div class="panel-heading">
+                    <a href="{{ .Permalink }}"><h3 class="panel-title">{{ .Params.TutorialName }}</h3></a>
+                </div>
+                <div class="panel-body">
+                    {{ .Params.ShortDescription }}
+                </div>
+            </div>
+        {{ end }}
+    {{ end }}
+    </div>
+{{ end }}

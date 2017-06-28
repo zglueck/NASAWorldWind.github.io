@@ -3,10 +3,11 @@
     "date": "2017-06-23T14:27:52-04:00",
     "draft": false,
     "layout": "project",
-    "projectSlug": "android"
+    "projectSlug": "android",
+    "displayassingle": true
 }
 
-## Overview
+## Overview  Underscore - *YES!*
 
 World Wind Android is a 3D virtual globe API for Android. You can use it to provide a geographic context, complete with terrain, for visualizing geographic or geo-located information.
 
