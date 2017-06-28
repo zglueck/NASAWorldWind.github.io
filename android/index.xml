@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>World Wind Android on NASA World Wind</title>
+    <link>https://worldwind.arc.nasa.gov/android/</link>
+    <description>Recent content in World Wind Android on NASA World Wind</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 23 Jun 2017 14:27:52 -0400</lastBuildDate>
+    
+	<atom:link href="https://worldwind.arc.nasa.gov/android/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>World Wind Android</title>
+      <link>https://worldwind.arc.nasa.gov/android/download/</link>
+      <pubDate>Fri, 23 Jun 2017 15:24:48 -0400</pubDate>
+      
+      <guid>https://worldwind.arc.nasa.gov/android/download/</guid>
+      <description>Download To add World Wind to your Gradle project, grab the latest release version from JCenter:
+compile &#39;gov.nasa.worldwind.android:worldwind:0.6.0&#39;  For developers, the lastest SNAPSHOT version is hosted at the OJO. Add the repository:
+repositories ( maven ( url &#39;https://oss.jfrog.org/artifactory/oss-snapshot-local/&#39; ) )  The latest SNAPSHOT version is:
+compile &#39;gov.nasa.worldwind.android:worldwind:0.7.0-SNAPSHOT&#39;  You can also manually download the library from Bintray.
+Development Environment The World Wind team uses Android Studio for development of the World Wind Android project.</description>
+    </item>
+    
+  </channel>
+</rss>
